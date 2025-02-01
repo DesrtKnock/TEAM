@@ -11905,9 +11905,9 @@ sound:Play()
 
 end)
 
-local SHOP = creds:section("购物中心", false)
+local SHOP = creds:section("购物中心〔正常工作〕", false)
 
-SHOP:Button("购物中心〔正常工作〕",function()
+SHOP:Button("购物中心",function()
 local sound = Instance.new("Sound", workspace)
 sound.SoundId = "rbxassetid://6647898215"
 sound:Play()
